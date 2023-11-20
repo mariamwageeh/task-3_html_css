@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(..//images/ex.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height:2000px ;
+  
+}
+.header{
+    background-color: rgb(247, 246, 246);
+   height: 70px;
+    
+}
+.image{
+width: 70px;
+height: 70px;
+border: 2px solid rgb(219, 202, 202);
+border-radius: 50%;
+
+}
+/* .img{
+    width: 70px;
+    height: 70px;
+    border: 2px solid rgb(219, 202, 202);
+    border-radius: 50%;
+    float: right;
+    } */
+.head1{
+     text-align: center;
+    margin-top: -60px;
+   /* color: azure; */
+   margin-bottom:35px ; 
+   /* margin-left: 750px; */
+   /* margin: auto; */
+}
+.div1{
+    width: 200px;
+    height: 250px;
+    border: 2px solid grey;
+    float: left;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 300px;
+    margin-top: 40px;
+    background-image: url(../images/frontend.jpeg);
+    background-position: center;
+
+   background-size: cover;
+}
+.div2{
+    width: 200px;
+    height: 250px;
+    border: 2px solid grey;
+    float: left;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+    background-image: url(../images/Inkedbackend.jpg);
+    background-position: center;
+
+   background-size: cover;
+
+}
+.div3{
+    width: 200px;
+    height: 250px;
+    border: 2px solid grey;
+    float: left;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 40px;
+    background-image: url(../images/jobs.jpeg);
+    background-position: center;
+
+   background-size: cover;
+}
+ .p1{
+    height: 23px;
+    width: 130px;
+    border:2px solid grey;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: -17px;
+    margin-bottom: 2px;
+    background-color: aliceblue;
+} 
+h2{
+    /* padding-right:80px ; */
+    color: black;
+    margin-bottom: 170px;
+}
+a{
+    /* padding-right:90px ; */
+    display: block;
+    margin-bottom: 5px;
+}
+button{
+    height: 23px;
+    width: 130px;
+    background-color: aliceblue;
+    border:2px solid grey;
+    border-radius: 5px;
+   
+   
+}
+.parent{
+    overflow: auto;
+   height:500px ;
+}
